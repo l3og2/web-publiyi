@@ -16,6 +16,16 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- Sin JavaScript las animaciones de entrada no deben ocultar el contenido -->
+    <noscript>
+        <style>
+            .fade-up {
+                opacity: 1;
+                transform: none;
+            }
+        </style>
+    </noscript>
 </head>
 
 <body>
@@ -137,9 +147,44 @@
                     <div class="feature-text">
                         <h3>Soporte para Empresas (B2B)</h3>
                         <p>También ofrecemos planes de mantenimiento preventivo y correctivo para empresas.</p>
+                        <a class="feature-link" href="#empresas">Ver servicios corporativos &rarr;</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- CORPORATE / B2B -->
+    <section class="corporate section" id="empresas">
+        <div class="container">
+            <div class="corporate-header">
+                <span class="badge fade-up">Para Empresas</span>
+                <h2 class="section-title fade-up delay-1">Soporte Técnico y Asistencia IT Corporativa</h2>
+                <p class="section-desc fade-up delay-2">Mantenemos operativa la infraestructura tecnológica de tu
+                    empresa: optimización, upgrades, mantenimiento preventivo, software y respaldo de información
+                    crítica.</p>
+            </div>
+
+            <figure class="corporate-banner fade-up delay-3">
+                <a href="https://wa.me/584266075211?text=Hola%20YI%20Technology,%20necesito%20una%20propuesta%20de%20soporte%20t%C3%A9cnico%20y%20asistencia%20IT%20para%20mi%20empresa."
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="Solicitar soporte técnico corporativo por WhatsApp">
+                    <picture>
+                        <source srcset="assets/imagen_soporte_corporativo.webp" type="image/webp">
+                        <img src="assets/imagen_soporte_corporativo.jpeg" width="2000" height="1116"
+                            alt="Soporte técnico y asistencia IT corporativa: optimización de equipos, upgrade de hardware, mantenimiento preventivo, software y configuración, migración y respaldo."
+                            loading="lazy" decoding="async">
+                    </picture>
+                </a>
+            </figure>
+
+            <ul class="corporate-tags fade-up delay-4">
+                <li>Optimización de equipos</li>
+                <li>Upgrade de hardware</li>
+                <li>Mantenimiento preventivo</li>
+                <li>Software y configuración</li>
+                <li>Migración y respaldo</li>
+            </ul>
         </div>
     </section>
 
